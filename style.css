@@ -4,8 +4,39 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
 /* HEADER */
 
 .ms_bg_black{
     background-color: black;
+}
+
+.ms_chevron{
+    font-size: 12px;
+    margin-left: 3px;
+    color: darkgray;
+}
+
+.ms_search{
+    font-size: 30px;
+    vertical-align: center;
+    margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/* BOTTONI */
+
+.ms_button_darkgray{
+    background-color: rgb(41,41,41);
+    border-color: rgb(41,41,41) ;
 }
