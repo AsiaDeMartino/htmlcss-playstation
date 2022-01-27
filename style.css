@@ -16,6 +16,27 @@ a {
     background-color: black;
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/* MAIN */
+
+.section{
+    height: 700px;
+    background-image: url(img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section img{
+    max-width:100%;
+}
+
+/* ICONE */
+
 .ms_chevron{
     font-size: 12px;
     margin-left: 3px;
@@ -28,15 +49,15 @@ a {
     margin-left: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: black;
-    margin-right: 10px;
-    font-size: 15px;
-}
-
 /* BOTTONI */
 
 .ms_button_darkgray{
     background-color: rgb(41,41,41);
     border-color: rgb(41,41,41) ;
+}
+
+.ms_button_red{
+    background-color: rgb(189,40,16);
+    border-color: rgb(189,40,16);
+    color: white;
 }
