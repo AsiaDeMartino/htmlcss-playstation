@@ -29,9 +29,12 @@ a {
 
 .section{
     height: 700px;
-    background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#section1{
+    background-image: url(img/jumbo-bg.png);
 }
 
 .section img{
@@ -65,6 +68,10 @@ a {
 
 .ms_op70{
     filter: opacity(70%);
+}
+
+#section4{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* ICONE */
