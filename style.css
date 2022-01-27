@@ -9,7 +9,6 @@ a {
     color: currentColor;
 }
 
-
 /* HEADER */
 
 .ms_bg_black{
@@ -33,6 +32,16 @@ a {
 
 .section img{
     max-width:100%;
+}
+
+#section2 .row img{
+    width:100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.ms_card_active{
+    border:2px solid rgb(45, 100, 230);
 }
 
 /* ICONE */
