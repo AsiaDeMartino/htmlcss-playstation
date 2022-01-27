@@ -9,6 +9,10 @@ a {
     color: currentColor;
 }
 
+.ms_img100{
+    width: 100%;
+}
+
 /* HEADER */
 
 .ms_bg_black{
@@ -41,7 +45,7 @@ a {
 }
 
 .ms_card_active{
-    border:2px solid rgb(45, 100, 230);
+    border:2px solid rgb(45,100,230);
 }
 
 /* ICONE */
