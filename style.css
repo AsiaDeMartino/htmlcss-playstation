@@ -19,6 +19,10 @@ a {
 
 /* HEADER */
 
+.ms_margincustom{
+    margin-top: 145px;
+}
+
 .ms_bg_black{
     background-color: black;
 }
@@ -35,8 +39,7 @@ a {
 
 /* MAIN */
 
-.section{
-    
+.banner{
     background-repeat: no-repeat;
     background-size: cover;
 }
