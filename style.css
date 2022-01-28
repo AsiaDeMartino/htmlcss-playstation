@@ -101,8 +101,30 @@ a {
 
 #section6 img{
     width:100%;
-    
 }
+
+.ms_bg_lightgray{
+    background-color: rgb(190,188,187);
+}
+
+/* !!!!!!!!!!!!!!! */
+
+#section7 .row{
+    height: 400px;
+}
+
+.ms_plus_logo{
+    width: 320px;
+}
+
+.ps_plus_games{
+    height: 400px;
+    width: 540px;
+}
+
+/* !!!!!!!!!!!!!!! */
+
+
 
 /* ICONE */
 
@@ -129,4 +151,12 @@ a {
     background-color: rgb(189,40,16);
     border-color: rgb(189,40,16);
     color: white;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 576px) {
+    .ps_plus_games_wrapper{
+        display: none;
+    }
 }
