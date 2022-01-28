@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    color: black; 
+}
+
 a {
     text-decoration: none;
     color: currentColor;
@@ -28,12 +32,13 @@ a {
 /* MAIN */
 
 .section{
-    height: 700px;
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section1{
+    height: 700px;
     background-image: url(img/jumbo-bg.png);
 }
 
@@ -71,7 +76,17 @@ a {
 }
 
 #section4{
+    height: 700px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms_bg_gray{
+    background-color: rgb(24,24,24);
+}
+
+#section5 img{
+    width:100%;
+    border-radius: 2rem
 }
 
 /* ICONE */
