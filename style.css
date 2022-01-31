@@ -132,6 +132,21 @@ a {
     width: 100%;
 }
 
+/* FOOTER */
+
+footer{
+    background-color: rgb(2,47,138);
+}
+
+.footer_logo{
+    width:20%;
+}
+
+.ms_lingua{
+    width:20px;
+    height:20px;
+}
+
 /* ICONE */
 
 .ms_chevron{
