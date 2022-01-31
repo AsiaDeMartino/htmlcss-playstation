@@ -147,6 +147,15 @@ footer{
     height:20px;
 }
 
+footer ul{
+    list-style-type: none;
+}
+
+.ms_sielogo{
+    width: 50%;
+}
+
+
 /* ICONE */
 
 .ms_chevron{
