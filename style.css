@@ -13,14 +13,53 @@ a {
     color: currentColor;
 }
 
+img{
+    max-width: 100%;
+}
+
 .ms_img100{
     width: 100%;
 }
 
 /* HEADER */
 
+header{
+    display: contents;
+}
+
+header .navbar{
+    position: sticky;
+    top: 0;
+}
+
 .ms_margincustom{
     margin-top: 145px;
+}
+
+.ms_chevron{
+    height: 15px;
+    width: 15px;
+}
+
+.ms_chevron_hover{
+    display: none;
+}
+
+header li:hover .ms_chevron{
+    display: none;
+}
+
+header li:hover .ms_chevron_hover{
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+
+.ms_search{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
 }
 
 .ms_bg_black{
@@ -46,6 +85,7 @@ a {
 .banner{
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #section1{
@@ -61,6 +101,15 @@ a {
     width: 100%;
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+#section2 .row div:hover{
+    transform: translatey(-15px);
+    transition: 1s ease-in-out;
+}
+
+#section2 .row div:active img{
+    border: 2px solid rgb(45,100,230);
 }
 
 .ms_game_active{
@@ -89,6 +138,10 @@ a {
     filter: opacity(70%);
 }
 
+.card:hover{
+    filter: opacity(100%);
+}
+
 #section4{
     height: 700px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
@@ -111,22 +164,13 @@ a {
     background-color: rgb(190,188,187);
 }
 
-/* !!!!!!!!!!!!!!! */
-
-#section7 .row{
-    height: 400px;
-}
-
 .ms_plus_logo{
     width: 320px;
 }
 
 .ps_plus_games{
-    height: 400px;
-    width: 540px;
+    display: block;
 }
-
-/* !!!!!!!!!!!!!!! */
 
 #section10 img{
     width: 100%;
@@ -153,21 +197,6 @@ footer ul{
 
 .ms_sielogo{
     width: 50%;
-}
-
-
-/* ICONE */
-
-.ms_chevron{
-    font-size: 12px;
-    margin-left: 3px;
-    color: darkgray;
-}
-
-.ms_search{
-    font-size: 30px;
-    vertical-align: center;
-    margin-left: 20px;
 }
 
 /* BOTTONI */
