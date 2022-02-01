@@ -55,6 +55,23 @@ header li:hover .ms_chevron_hover{
     width: 15px;
 }
 
+.dropdown {
+    position: static;
+    margin: 0;
+}
+
+.ms_dropdown_img {
+    max-width: 100px;
+}
+
+.ms_dropdown_menu {
+    text-align: center;
+}
+
+.ms_dropdown_menu li {
+    display: inline-block;
+}
+
 .ms_search{
     display: block;
     height: 30px;
